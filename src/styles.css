@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #0c0e52;
+  --secondary-color: #ecae00;
+  --tertiary-color: #117834;
+  --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/446/original/ball_cropped.jpg?1692043056);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+#rules {
+  padding: 80px 0;
+}
+
+h1,
+h2 {
+  font-family: "Alfa Slab One", cursive;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  border-radius: 16px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-icon {
+  margin: 0 20px;
+}
+
+.description-footer {
+  display: block;
+  text-align: center;
+  color: var(--font-color-paragraphs);
+  font-size: 14px;
+  margin: 10px;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+}
